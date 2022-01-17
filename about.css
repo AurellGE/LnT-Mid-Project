@@ -1,6 +1,7 @@
 #about {
     background-color: black;
     height: 150vh;
+    display: flex;
 }
 
 #about * {
@@ -8,10 +9,50 @@
     font-weight: 100;
 }
 
-.section-no {
-    margin: 50px 70px;    
+#about > div {
+    flex-direction: row;
 }
 
 .no {
     color: rgba(255, 255, 255, 0.6) !important;
+}
+
+/* Scroll */
+.scroll-down {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    animation: fade 3s linear infinite;
+}
+
+.scroll-left img {
+    height: 120px;
+    margin-right: 10px;
+    opacity: 1;
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.scroll-right {
+    width: 50px;
+    text-align: center;
+    margin-block: auto;
+}
+
+.scroll-right .iconify {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 100px;
+    height: 30px; width: 30px;
+    padding: 5px 3px;
+}
+
+.about-right img {
+    height: 500px;
 }

@@ -4,6 +4,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: poppins;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -12,6 +13,10 @@ h1 {
 
 h4 {
     font-size: 16px;
+}
+
+.margin {
+    margin: 50px;
 }
 
 .fixed-home {
@@ -76,6 +81,10 @@ section {
     background-color: #af2e55;
     border: 5px solid white;
     border-radius: 100px;
+}
+
+.circle a {
+    margin: auto;
 }
 
 .circle-text {

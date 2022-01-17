@@ -1,0 +1,30 @@
+#contact {
+    height: 100vh;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: black;
+}
+
+footer * {
+    color: white;
+}
+
+footer h4 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+footer > div {
+    text-align: right;
+    display: block;
+}
+
+footer .iconify-inline {
+    width: 30px;
+    height: 30px;
+    margin-inline: 10px;
+}

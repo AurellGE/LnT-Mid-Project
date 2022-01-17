@@ -8,12 +8,13 @@
 }
 
 .nav-contact {
+  position: absolute;
     background-color: black;
     border-radius: 8px;
-    padding: 5px 10px;
+    padding: 5px;
     color: white;
-    float: right;
-    margin-inline: 30px; margin-block: -4px;
+    right: 0;
+    margin-inline: 30px; margin-block: 0px;
 }
 
 .nav-contact:hover {
@@ -125,8 +126,8 @@
     width: 45%; height: 25%;
     right: 0; top: 70%;
     animation: 2s slide 2s forwards;
-    transform: translateX(-250%);
-    overflow: hidden;
+    transform: translateX(100%);
+    /* overflow: hidden; */
 }
 
 @keyframes slide {
@@ -136,8 +137,9 @@
   }
 
 .home-contact {
-    margin-left: 15%;
+    margin-left: 16%;
     margin-top: 5%;
+    padding: 5px;
 }
 
 .home-contact > div {
@@ -162,5 +164,6 @@
 
 .contact-icon > a > span:nth-child(2) {
     vertical-align: top;
+    margin-top: 5px;
     font-weight: 600;
 }
