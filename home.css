@@ -1,0 +1,166 @@
+#home {
+    height: 100vh;
+}
+
+.nav-list:hover {
+    color: #af2e55;
+    transition: 1s;
+}
+
+.nav-contact {
+    background-color: black;
+    border-radius: 8px;
+    padding: 5px 10px;
+    color: white;
+    float: right;
+    margin-inline: 30px; margin-block: -4px;
+}
+
+.nav-contact:hover {
+    background-color: #af2e55;
+    transition: 1s;
+}
+
+#home {
+    /* padding-top: 100px; */
+}
+
+@keyframes showTopText {
+    0% { transform: translate3d(0, 100%, 0); }
+    40%, 60% { transform: translate3d(0, 50%, 0); }
+    100% { transform: translate3d(0, 0, 0); }
+  }
+  
+  @keyframes showBottomText {
+    0% { transform: translate3d(0, -100%, 0); }
+    100% { transform: translate3d(0, 0, 0); }
+  }
+
+  .title {
+      font-size: 70px;
+      font-weight: 600;
+  }
+
+  .subtitle{
+      font-size: 30px;
+  }
+
+  .text {
+      font-size: 18px;
+      margin-left: 50px;
+      color: rgb(116, 116, 116);
+  }
+
+  .animated-title {
+    height: 60vmin;
+    left: 50%;
+    position: relative;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+  }
+
+  .animated-title > div {
+    height: 50%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+  }
+
+  .animated-title > div div {
+    padding: 2vmin 0;
+    position: absolute;
+  }
+
+  .animated-title > div div span {
+    display: block;
+  }
+
+  .text-top {
+    border-bottom: 1vmin solid #000;
+    top: 0;
+  }
+
+  .text-top div {
+    animation: showTopText 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    bottom: 0;
+    transform: translate(0, 100%);
+  }
+
+  .text-bottom {
+    bottom: 0;
+  }
+
+  .text-bottom div {
+    animation: showBottomText 0.5s;
+    animation-delay: 1.75s;
+    animation-fill-mode: forwards;
+    top: 0;
+    transform: translate(0, -100%);
+  }
+
+.home-img {
+    width: 100%;
+    overflow: hidden;
+    margin-left: -10%;
+}
+
+.home-img img {
+    position: absolute;
+    object-fit: cover;
+    z-index: -10;
+    
+}
+
+.home-img-left {
+    width: 10%; height: 55%;
+    left: 0; top: 15%;
+    animation: 2s slide 2s forwards;
+    transform: translateX(-100%);
+}
+
+.home-img-right {
+    width: 45%; height: 25%;
+    right: 0; top: 70%;
+    animation: 2s slide 2s forwards;
+    transform: translateX(-250%);
+    overflow: hidden;
+}
+
+@keyframes slide {
+    to {
+      transform:translateX(0);
+    }
+  }
+
+.home-contact {
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.home-contact > div {
+    font-size: 20px;
+    padding: 5px;
+    margin-inline: 20px;
+    display: inline;
+}
+
+.home-contact .iconify-inline {
+    background-color: #af2e55;
+    border-radius: 100px;
+    padding: 4px;
+    margin-right: 3px; margin-top: -4px;
+    height: 30px; width: 30px;
+}
+
+.home-contact .iconify-inline:hover {
+    background-color: #949494;
+    transition: 1s;
+}
+
+.contact-icon > a > span:nth-child(2) {
+    vertical-align: top;
+    font-weight: 600;
+}

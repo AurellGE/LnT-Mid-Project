@@ -1,0 +1,17 @@
+#about {
+    background-color: black;
+    height: 150vh;
+}
+
+#about * {
+    color: white;
+    font-weight: 100;
+}
+
+.section-no {
+    margin: 50px 70px;    
+}
+
+.no {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
