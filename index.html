@@ -20,18 +20,26 @@
     </a></div>
 
     <section id="home">
+      <div class="nav">
         <nav>
-            <ul>
-                <!-- <li><a href="#home"><img src="*logo*" alt=""></a></li> -->
-                <li><a href="#home" class="nav-list list">Home</a></li>
-                <li><a href="#about" class="nav-list list">About</a></li>
-                <li><a href="#studies" class="nav-list list">Education</a></li>
-                <li><a href="#portfolio" class="nav-list list">Portfolio</a></li>
-                <li><a href="#contact" class="nav-contact list">Get in Touch<span class="iconify-inline" data-icon="ic:baseline-play-arrow" style="color: white;"></span></a></li>
-            </ul>
-        </nav>
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
 
-        <div class="circle get-in-touch"><a href="#contact">
+            <div class="nav-links">
+                <!-- <li><a href="#home"><img src="*logo*" alt=""></a></li> -->
+                <a href="#home" class="nav-list list">Home</a>
+               <a href="#about" class="nav-list list">About</a>
+               <a href="#studies" class="nav-list list">Education</a>
+                <a href="#portfolio" class="nav-list list">Portfolio</a>
+                <a href="#contact" class="nav-contact list">Get in Touch<span class="iconify-inline" data-icon="ic:baseline-play-arrow" style="color: white;"></span></a>
+              </div>
+            </nav>
+          </div>
+          
+          <div class="circle get-in-touch"><a href="#contact">
             <p class="circle-text">Get in Touch!</p>
         </a></div>
 
@@ -70,7 +78,7 @@
         <div class="section-no margin" id="mobile1">
           <span class="no">02 / </span>
           <span class="section">ABOUT</span>
-          <h1>Get to Know Me</h1>
+          <h1 style="font-weight: 600;">Get to Know Me</h1>
         </div>
         
         <div class="skills" id="mobile3">
@@ -132,21 +140,21 @@
           <tr>
             <td><a href="http://sdpertiwibogor.mysch.id/" target="_blank">
               <img src="./School Asset/pertiwi.png" alt=""></a></td>
-            <td><a href="http://sdpertiwibogor.mysch.id/" target="_blank">SD Pertiwi Bogor</a></td>
+            <td><a href="http://sdpertiwibogor.mysch.id/" target="_blank">SD Pertiwi Bogor <br> 2009 - 2015</a></td>
           </tr>
           <tr>
             <td><a href="https://smpn2bogor.sch.id/" target="_blank"><img src="./School Asset/smp2.png" alt=""></a></td>
-            <td><a href="https://smpn2bogor.sch.id/" target="_blank">SMP Negeri 2 Bogor</a></td>
+            <td><a href="https://smpn2bogor.sch.id/" target="_blank">SMP Negeri 2 Bogor <br> 2015 - 2018</a></td>
           </tr>
         </table>
         <table class="flex">
           <tr>
             <td class="center"><a class="schoolLink" href="http://www.smantiboo.sch.id/" target="_blank"><img src="./School Asset/sma3.jfif" alt=""></a></td>
-            <td><a class="schoolLink" href="http://www.smantiboo.sch.id/" target="_blank">SMA Negeri 3 Bogor</a></td>
+            <td><a class="schoolLink" href="http://www.smantiboo.sch.id/" target="_blank">SMA Negeri 3 Bogor <br> 2018 - 2021</a></td>
           </tr>
           <tr>
             <td><a href="https://binus.ac.id/" target="_blank"><img src="./School Asset/binus.png" alt=""></a></td>
-            <td><a href="https://binus.ac.id/" target="_blank">Bina Nusantara University</a></td>
+            <td><a href="https://binus.ac.id/" target="_blank">Bina Nusantara University <br> 2021 - now</a></td>
           </tr>
         </table>
       </div>
@@ -210,13 +218,15 @@
         <h1 class="">Contact Me</h1>
       </div>
       <div>
-        <form action="#">
-          <input type="text" placeholder="Full Name" required>
-          <input type="email" placeholder="Email" required>
+        <form class="flex" action="#">
+          <div>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+          </div>
           <input type="text" placeholder="LinkedIn" required>
-          <input type="text" placeholder="Message" required>
+          <textarea type="text" placeholder="Message" required cols="30" rows="10"></textarea>
 
-          <button type="submit">SUBMIT</button>
+          <button type="submit">Submit</button>
         </form>
       </div>
     </section>

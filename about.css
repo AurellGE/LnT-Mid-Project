@@ -33,17 +33,17 @@
 .skills span {
     font-size: 16px;
     overflow: hidden;
-    height: 25px; padding-inline: 10px;
+    height: 25px; padding: 2px 10px;
     margin-inline-end: 10px; margin-block: 10px;
-    background-color: lightgray;
-    color: black !important;
+    background-color: #af2e55;
+    color: white !important;
     font-weight: 500 !important;
     border-radius: 20px;
 }
 
 .skills span:hover {
-    background-color: #af2e55;
-    color: white !important;
+    background-color: white;
+    color: #af2e55 !important;
     transition: 1s;
     cursor: default;
 }
@@ -96,7 +96,6 @@
 
 .photo {
     height: 60vh;
-    filter: grayscale();
     margin-right: 40vw;
 }
 
