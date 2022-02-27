@@ -4,19 +4,14 @@
 
 .pf-preview div {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .pf-preview img {
     width: 500px;
     margin: 10px;
     display: block;
-    /* border: 1px solid #af2e55; */
 }
-
-/* .pf-preview img:hover {
-    transform: scale(1.5);
-} */
 
 .container {
     position: relative;
@@ -46,7 +41,6 @@
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    /* text-align: center; */
   }
 
   @media screen and (max-width: 768px) {

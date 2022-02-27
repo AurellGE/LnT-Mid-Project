@@ -94,10 +94,6 @@ nav {
 
 
 /* Home */
-#home {
-    /* padding-top: 100px; */
-}
-
 @keyframes showTopText {
     0% { transform: translate3d(0, 100%, 0); }
     40%, 60% { transform: translate3d(0, 50%, 0); }
@@ -195,7 +191,6 @@ nav {
     right: 0; top: 70%;
     animation: 2s slide 2s forwards;
     transform: translateX(100%);
-    /* overflow: hidden; */
 }
 
 @keyframes slide {
@@ -266,7 +261,7 @@ nav {
 /* standar hp 500px ke bawah */
 @media screen and (max-width: 500px) {
   .animated-title {
-    top: 30%;
+    top: 45%;
   }
   
   .title {
