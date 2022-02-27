@@ -43,7 +43,7 @@ nav {
     transition: 1s;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 550px) {
   nav {
     display: inline-block;
     position: absolute;

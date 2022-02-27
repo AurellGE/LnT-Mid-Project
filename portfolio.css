@@ -41,7 +41,8 @@
     color: white;
     font-size: 16px;
     position: absolute;
-    top: 50%; left: 30%;
+    width: 80%;
+    top: 50%; left: 35%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
