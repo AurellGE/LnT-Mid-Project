@@ -1,6 +1,5 @@
 #about {
     background-color: black;
-    height: 150vh;
     display: flex;
 }
 
@@ -11,17 +10,49 @@
 
 #about > div {
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .no {
     color: rgba(255, 255, 255, 0.6) !important;
 }
 
+/* Skills */
+.skills {
+    margin-top: -20px;
+}
+
+.skills > div {
+    width: 90%;
+}
+
+.skills div {
+    margin-block-end: 40px;
+}
+
+.skills span {
+    font-size: 16px;
+    overflow: hidden;
+    height: 25px; padding-inline: 10px;
+    margin-inline-end: 10px; margin-block: 10px;
+    background-color: lightgray;
+    color: black !important;
+    font-weight: 500 !important;
+    border-radius: 20px;
+}
+
+.skills span:hover {
+    background-color: #af2e55;
+    color: white !important;
+    transition: 1s;
+    cursor: default;
+}
+
 /* Scroll */
 .scroll-down {
     display: flex;
     flex-direction: row;
-    margin-left: 10px;
+    margin-left: 10px; margin-bottom: 10px; margin-top: -50px;
     animation: fade 3s linear infinite;
 }
 
@@ -53,6 +84,90 @@
     padding: 5px 3px;
 }
 
-.about-right img {
-    height: 500px;
+.about-left {
+    width: 45%;
+    margin-right: 10px;
+}
+
+.about-right {
+    width: 50%;
+    margin-left: 10px;
+}
+
+.photo {
+    height: 60vh;
+    filter: grayscale();
+    margin-right: 40vw;
+}
+
+.photo:hover {
+    filter: none;
+    transition: 1.5s;
+}
+
+.about-text {
+    margin-top: 80px;
+}
+
+.about-text > * {
+    margin-block: 15px;
+}
+
+@media screen and (max-width: 1030px) {
+    .about-right > div {
+        flex-direction: column;
+    }
+
+    .about-text {
+        margin-top: 20px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skills h2 {
+        font-size: 24px;
+    }
+    .skills span {
+        font-size: 14px;
+    }
+
+    .about-left {
+        width: 40%;
+        padding-top: 20px; padding-right: 15px;
+    }
+
+    .about-right {
+        width: 60%;
+        margin-inline: 50px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #about {
+        flex-direction: column;
+    }
+
+    .about-left {
+        width: 100%;
+        margin-block: -40px;
+    }
+
+    .about-right {
+        width: 80%;
+        margin-inline: 50px; margin-bottom: 30px;
+    }
+
+    .about-text * {
+        font-size: 14px;
+    }
+
+    #mobile1 {order: 1;}
+    #mobile2 {order: 2;}
+    #mobile3 {order: 3;}
+
+    .scroll-down {
+        display: none;
+    }
+
 }

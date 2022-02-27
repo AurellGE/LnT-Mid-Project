@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./home.css">
     <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="./studies.css">
     <link rel="stylesheet" href="./portfolio.css">
     <link rel="stylesheet" href="./contact.css">
 
@@ -24,12 +25,12 @@
                 <!-- <li><a href="#home"><img src="*logo*" alt=""></a></li> -->
                 <li><a href="#home" class="nav-list list">Home</a></li>
                 <li><a href="#about" class="nav-list list">About</a></li>
-                <li><a href="#studies" class="nav-list list">Studies</a></li>
-                <li><a href="#skills" class="nav-list list">Skills</a></li>
+                <li><a href="#studies" class="nav-list list">Education</a></li>
                 <li><a href="#portfolio" class="nav-list list">Portfolio</a></li>
                 <li><a href="#contact" class="nav-contact list">Get in Touch<span class="iconify-inline" data-icon="ic:baseline-play-arrow" style="color: white;"></span></a></li>
             </ul>
         </nav>
+
         <div class="circle get-in-touch"><a href="#contact">
             <p class="circle-text">Get in Touch!</p>
         </a></div>
@@ -46,98 +47,174 @@
                 <span class="subtitle">Undergraduate Student of Bina Nusantara University</span>
               </div>
             </div>
-            <div class="text-bottom">
-              <div><p class="text">A Front-End Developer skilled in HTML and CSS, with a hobby of digital art using Clip Studio Art. <br> Currently studying in School of Information System in Bina Nusantara University.</p></div>
-            </div>
-          </div>
+        </div>
 
           <div class="home-contact">
-              <div class="github contact-icon"><a href="https://github.com/AurellGE">
+              <div class="github contact-icon"><a href="https://github.com/AurellGE" target="_blank">
                 <span class="iconify-inline" data-icon="uim:github-alt" style="color: white;"></span>
                 <span>Github</span>
-            </a></div>
-              <div class="linkedin contact-icon"><a href="https://www.linkedin.com/in/aurellia-gita-elysia-925483220/">
+              </a></div>
+              <div class="linkedin contact-icon"><a href="https://www.linkedin.com/in/aurellia-gita-elysia-925483220/" target="_blank">
                 <span class="iconify-inline" data-icon="la:linkedin-in" style="color: white;"></span>
                 <span>LinkedIn</span>
                 </a></div>
-              <div class="email contact-icon"><a href="emailto: aurelliagita01@gmail.com">
+              <div class="email contact-icon"><a href="emailto: aurelliagita01@gmail.com" target="_blank">
                 <span class="iconify-inline" data-icon="carbon:email" style="color: white;"></span>
                 <span>Email</span>
-            </a></div>
+              </a></div>
           </div>
     </section>
 
-    <section id="about">
+    <section id="about" class="flex">
       <div class="about-left">
-          <div class="section-no margin">
-              <span class="no">02 / </span>
-              <span class="section">ABOUT</span>
-              <h1 class="">We are Creatives.</h1>
-          </div>
-  
-          <div class="scroll-down">
-            <div class="scroll-left">
-              <img src="./Asset/scrolld.png" alt="">
-            </div>
-            <div class="scroll-right">
-              <span class="iconify" data-icon="teenyicons:mouse-outline" style="color: white;"></span>
-              <p class="scroll-text">Scroll Down</p>
-            </div>
-          </div>
+        <div class="section-no margin" id="mobile1">
+          <span class="no">02 / </span>
+          <span class="section">ABOUT</span>
+          <h1>Get to Know Me</h1>
         </div>
+        
+        <div class="skills" id="mobile3">
+          <div class="marginPl">
+            <h2>Programming Language</h2>
+            <div class="flex flex-wrap">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Java</span>
+            </div>
 
-        <div class="about-right">
-          <img src="#" alt="">
+            <h2>Software</h2>
+            <div class="flex flex-wrap">
+              <span>Visual Studio Code</span>
+              <span>Eclipse</span>  
+              <span>Photoshop</span>
+              <span>Clip Studio Paint</span>
+            </div>
+          </div>
         </div>
+        
+        <div class="scroll-down">
+          <div class="scroll-left">
+            <img src="./Asset/scrolld.png" alt="">
+          </div>
+          
+          <div class="scroll-right">
+            <span class="iconify" data-icon="teenyicons:mouse-outline" style="color: white;"></span>
+            <p class="scroll-text">Scroll Down</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="about-right" id="mobile2">
+        <div class="flex">
+          <div class="photo-ctn">
+            <img class="photo" src="./Asset/photo.jpg" alt="">
+          </div>
+
+          <div class="about-text">
+            <h3 style="font-weight: 300; font-style: italic;">I'm Aurell,</h3>
+            <p>An undergraduate student of Bina Nusantara University, majoring in Information Systems.</p>
+            <p>I am currently learning more about front-end development and database.</p>
+            <p>During my spare time, I often draw digital art and read novels</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="studies">
+      <div class="section-no margin">
+        <span class="">03 / </span>
+        <span class="section">Education</span>
+        <h1 class="">Schools I Went to</h1>
+      </div>
+      <div class="table-ed flex">
+        <table class="flex">
+          <tr>
+            <td><a href="http://sdpertiwibogor.mysch.id/" target="_blank">
+              <img src="./School Asset/pertiwi.png" alt=""></a></td>
+            <td><a href="http://sdpertiwibogor.mysch.id/" target="_blank">SD Pertiwi Bogor</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://smpn2bogor.sch.id/" target="_blank"><img src="./School Asset/smp2.png" alt=""></a></td>
+            <td><a href="https://smpn2bogor.sch.id/" target="_blank">SMP Negeri 2 Bogor</a></td>
+          </tr>
+        </table>
+        <table class="flex">
+          <tr>
+            <td class="center"><a class="schoolLink" href="http://www.smantiboo.sch.id/" target="_blank"><img src="./School Asset/sma3.jfif" alt=""></a></td>
+            <td><a class="schoolLink" href="http://www.smantiboo.sch.id/" target="_blank">SMA Negeri 3 Bogor</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://binus.ac.id/" target="_blank"><img src="./School Asset/binus.png" alt=""></a></td>
+            <td><a href="https://binus.ac.id/" target="_blank">Bina Nusantara University</a></td>
+          </tr>
+        </table>
+      </div>
     </section>
 
     <section id="portfolio">
       <div class="section-no margin">
-        <span class="no">03 / </span>
+        <span class="">04 / </span>
         <span class="section">Portfolio</span>
-        <h1 class="">We are Creatives.</h1>
+        <h1 class="">We are Creatives</h1>
       </div>
       <div class="pf-preview">
         <div class="pf-top">
           <div class="container">
             <img src="./Asset/Portfolio/portfolio.png" alt="">
             <div class="overlay">
-              <div class="text">First website I made</div>
+              <div class="text">Portofolio <br><br> First website I made</div>
             </div>
           </div>
           <div class="container">
             <img src="./Asset/Portfolio/lnt-session4.png" alt="">
             <div class="overlay">
-              <div class="text">First website I made</div>
+              <div class="text">Coffee Brew <br><br> LnT session 4 with Galvin Santoso as the lecturer</div>
             </div>
           </div>
           <div class="container">
             <img src="./Asset/Portfolio/tpm-mini.png" alt="">
             <div class="overlay">
-              <div class="text">First website I made</div>
+              <div class="text">Sky Pics <br><br> Mini project for TPM (Technology Project Member)</div>
             </div>
           </div>
         </div>
-        <div class="pf-bottom container">
-          <img src="./Asset/Portfolio/tpm-final-home.png" alt="">
-          <img src="./Asset/Portfolio/tpm-final-dashboard.png" alt="">
-          <img src="./Asset/Portfolio/tpm-final-admin.png" alt="">
+
+        <div class="pf-bottom">
+          <div class="container">
+            <img src="./Asset/Portfolio/tpm-final-home.png" alt="">
+            <div class="overlay">
+              <div class="text">Hackathon 5.0 <br><br> Home page of Hackathon 5.0 for TPM</div>
+            </div>
+          </div>
+          <div class="container">
+            <img src="./Asset/Portfolio/tpm-final-dashboard.png" alt="">
+            <div class="overlay">
+              <div class="text">Hackathon 5.0 <br><br> Member dashboard of Hackathon 5.0 for TPM</div>
+            </div>
+          </div>
+          <div class="container">
+            <img src="./Asset/Portfolio/tpm-final-admin.png" alt="">
+            <div class="overlay">
+              <div class="text">Hackathon 5.0 <br><br> Admin dashboard of Hackathon 5.0 for TPM</div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="contact">
       <div class="section-no margin">
-        <span class="no">04 / </span>
+        <span class="">05 / </span>
         <span class="section">Get in Touch</span>
-        <h1 class="">We are Creatives.</h1>
+        <h1 class="">Contact Me</h1>
       </div>
       <div>
         <form action="#">
           <input type="text" placeholder="Full Name" required>
           <input type="email" placeholder="Email" required>
-          <input type="text" placeholder="LinkedIn">
-          <input type="text" placeholder="Message">
+          <input type="text" placeholder="LinkedIn" required>
+          <input type="text" placeholder="Message" required>
 
           <button type="submit">SUBMIT</button>
         </form>
@@ -146,12 +223,14 @@
 
     <footer>
       <div>
-        <h4>Social Media</h4>
-        <a href="https://www.instagram.com/aurellialycia/"><span class="iconify-inline" data-icon="ant-design:instagram-filled" style="color: white;"></span></a>
-        <a href="https://api.whatsapp.com/send/?phone=6281281157073&text&app_absent=0"><span class="iconify-inline" data-icon="dashicons:whatsapp" style="color: white;"></span></a>
-        <a href="https://line.me/ti/p/~aurellialycia"><span class="iconify-inline" data-icon="bi:line" style="color: white;"></span></a>
+        <div>
+          <p>Social Media</p>
+          <a href="https://www.instagram.com/aurellialycia/"><span class="iconify-inline" data-icon="ant-design:instagram-filled" style="color: white;"></span></a>
+          <a href="https://api.whatsapp.com/send/?phone=6281281157073&text&app_absent=0"><span class="iconify-inline" data-icon="dashicons:whatsapp" style="color: white;"></span></a>
+          <a href="https://line.me/ti/p/~aurellialycia"><span class="iconify-inline" data-icon="bi:line" style="color: white;"></span></a>
+        </div> <br>
+        <p>©2022 Aurellia Gita Elysia</p>
       </div>
-      <p>Aurellia Gita Elysia © 2022</p>
     </footer>
 </body>
 </html>

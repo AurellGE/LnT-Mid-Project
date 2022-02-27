@@ -11,12 +11,20 @@ h1 {
    font-size: 40px; 
 }
 
+h2 {
+    font-size: 26px;
+}
+
 h4 {
     font-size: 16px;
 }
 
 .margin {
     margin: 50px;
+}
+
+.marginPl {
+    margin-left: 50px;
 }
 
 .fixed-home {
@@ -97,7 +105,48 @@ section {
 }
 
 .circle:hover {
-    background-color: #949494;
+    background-color: black;
     transition: 1s;
     cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+footer > div {
+    margin-block: 10px;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer > div > div {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 18px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 24px;
+    }
 }
