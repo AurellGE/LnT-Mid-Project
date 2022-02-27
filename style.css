@@ -141,10 +141,18 @@ footer > div > div {
     h2 {
         font-size: 18px !important;
     }
+
+    * {
+        overflow-x: hidden;
+    }
 }
 
 @media screen and (max-width: 500px) {
     h1 {
         font-size: 24px;
+    }
+
+    * {
+        overflow-x: hidden;
     }
 }

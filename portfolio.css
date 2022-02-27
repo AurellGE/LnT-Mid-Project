@@ -61,6 +61,10 @@
       width: 95.7%;
     }
 
+    .overlay div {
+      font-size: 14px;
+    }
+
     .container:hover .overlay {
       height: 91%;
     }
